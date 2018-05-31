@@ -82,7 +82,7 @@ ul li {
 }
 
 .banner-image {
-  width: 70%;
+  max-width: 70%;
   margin-bottom: 30px;
 }
 
@@ -164,5 +164,33 @@ address {
 
   .footer-nav {
     display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .container {
+    width: 80%;
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-nav {
+    margin: 30px 0;
+  }
+
+  .banner-image {
+    min-width: 50%;
+  }
+
+  .card {
+    max-width: 33%;
+  }
+
+  .banner-image {
+    max-width: 400px;
   }
 }
