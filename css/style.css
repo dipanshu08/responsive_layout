@@ -118,3 +118,51 @@ address {
   padding: 20px 0;
   color: #4A4A4A;
 }
+
+.footer-nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .main-nav {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .main-nav li,
+  .footer-nav li {
+    background-color: inherit;
+  }
+
+  .banner {
+    text-align: left;
+  }
+
+  .banner-image {
+    order: 1;
+    padding-left: 20px;
+  }
+
+  .protfolio-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    max-width: 49%;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .footer-nav {
+    display: flex;
+  }
+}
