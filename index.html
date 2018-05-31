@@ -3,32 +3,31 @@
   <head>
     <title>Dipanshu Portfolio</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
     <header>
-
-      <h1>Dipanshu Sehrawat</h1>
-
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <h1>Student Name</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="nav-list">Home</a></li>
+            <li><a href="#portfolio" class="nav-list">Portfolio</a></li>
+            <li><a href="#contact" class="nav-list">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <div class="banner">
-
-      <img src="images/responsive-layout-profile.png" alt="Profile picture of Dipanshu" />
+    <div class="banner container">
+      <img src="images/responsive-layout-profile.png" alt="Profile picture of Dipanshu" class="banner-image" />
       <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
-
     </div>
 
     <main>
-      <section>
+      <section class="container portfolio">
         <h2>Portfolio</h2>
 
         <article>
@@ -69,17 +68,19 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="main-footer container">
       <h2>Contact</h2>
       <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
 
       <address>
-        Phone: +1 (111) 555-1234<br />
-        Email: email@yoursite.com
+        Phone <span class='bold'>+1 (111) 555-1234</span><br /><br />
+        Email <span class='bold'>email@yoursite.com</span>
       </address>
 
-      <h4>Dipanshu</h4>
-      <h4>Back to top</h4>
+      <div class="secondary-footer">
+        <h4>Student name</h4>
+        <h4><a href="index.html">Back to top</a></h4>
+      </div>
     </footer>
 
   </body>
