@@ -10,7 +10,7 @@
 body {
   background-color: #FAFAFA;
   text-align: center;
-  font-family: Helvetica;
+  font-family: 'Dosis', sans-serif;
   font-size: 16px;
   color: #7F7F7F;
   line-height: 1.5;
@@ -19,6 +19,7 @@ body {
 h1, h2, h3 {
   margin: 30px 0;
   color: #4A4A4A;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1 {
@@ -135,6 +136,10 @@ address {
     margin: 0 auto;
   }
 
+  .nav-list:hover {
+    color: #2889e3;
+  }
+
   .main-nav li,
   .footer-nav li {
     background-color: inherit;
@@ -157,6 +162,16 @@ address {
     max-width: 49%;
   }
 
+  .skill-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .skill-list li {
+    flex-grow: 1;
+    margin: 0 5px;
+  }
+
   .top {
     display: none;
   }
@@ -165,12 +180,16 @@ address {
 @media (min-width: 1024px) {
 
   .container {
-    width: 90%;
+    width: 80%;
   }
 
   header .container {
     display: flex;
     justify-content: space-between;
+  }
+
+  .banner {
+    align-items: center;
   }
 
   .main-nav {
@@ -182,7 +201,7 @@ address {
   }
 
   .banner img {
-    max-width: 400px;
+    max-width: 367px;
   }
 
   .card {
