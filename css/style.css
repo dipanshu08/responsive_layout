@@ -42,7 +42,7 @@ ul {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .container {
@@ -128,7 +128,6 @@ address {
   .wrapper {
     display: flex;
     justify-content: space-between;
-
   }
 
   .main-nav {
@@ -161,16 +160,12 @@ address {
   .top {
     display: none;
   }
-
-  .footer-nav {
-    display: flex;
-  }
 }
 
 @media (min-width: 1024px) {
 
   .container {
-    width: 80%;
+    width: 90%;
   }
 
   header .container {
@@ -182,15 +177,15 @@ address {
     margin: 30px 0;
   }
 
-  .banner-image {
-    min-width: 50%;
+  .banner p {
+    flex-grow: 2;
+  }
+
+  .banner img {
+    max-width: 400px;
   }
 
   .card {
     max-width: 33%;
-  }
-
-  .banner-image {
-    max-width: 400px;
   }
 }
