@@ -94,9 +94,9 @@ ul li {
   padding: 50px 10px;
 }
 
-/* Footer ------------ */
+/* Contact ------------ */
 
-.main-footer h2 {
+.contact h2 {
   margin-top: 70px;
 }
 
@@ -110,7 +110,9 @@ address {
   font-weight: bold;
 }
 
-.secondary-footer {
+/* Footer ------------ */
+
+.main-footer {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
