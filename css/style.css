@@ -14,6 +14,7 @@ body {
   font-size: 16px;
   color: #7F7F7F;
   line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 h1, h2, h3 {
@@ -23,12 +24,12 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 1.875em;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 1.125em;
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 50px;
