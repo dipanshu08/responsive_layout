@@ -171,6 +171,12 @@ address {
   .skill-list li {
     flex-grow: 1;
     margin: 0 5px;
+    border-bottom: 2px solid;
+  }
+
+  .skill-list li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #e94475;
   }
 
   .top {
